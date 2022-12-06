@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gbrlcoelho/clean-arch/issues"
   },
-  "homepage": "https://github.com/gbrlcoelho/clean-arch#readme"
+  "homepage": "https://github.com/gbrlcoelho/clean-arch#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.4.0"
+  }
 }
