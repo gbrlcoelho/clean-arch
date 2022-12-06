@@ -19,6 +19,13 @@
   "homepage": "https://github.com/gbrlcoelho/clean-arch#readme",
   "devDependencies": {
     "@types/node": "^18.11.11",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "eslint": "^8.29.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
     "git-commit-msg-linter": "^4.4.0",
     "typescript": "^4.9.3"
   }
