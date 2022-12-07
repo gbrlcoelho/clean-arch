@@ -8,6 +8,10 @@
 		"jsx": "react",
 		"rootDirs": ["src", "tests"],
 		"baseUrl": "src",
+		"paths": {
+			"@/*": ["*"]
+			
+		},
 		"allowJs": true,
 		"resolveJsonModule": true
 	},
