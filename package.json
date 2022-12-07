@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/gbrlcoelho/clean-arch#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@types/jest": "^29.2.4",
     "@types/node": "^18.11.11",
     "@typescript-eslint/eslint-plugin": "^5.45.1",

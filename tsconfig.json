@@ -8,8 +8,16 @@
 		"jsx": "react",
 		"rootDirs": ["src", "tests"],
 		"baseUrl": "src",
+		"paths": {
+			"@/*": ["*"]
+			
+		},
 		"allowJs": true,
-		"resolveJsonModule": true
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": false,
+		"resolveJsonModule": true,
+		"noEmit": true,
 	},
 	"include": ["src", "tests"],
 	"exclude": ["tests/e2e/cypress"]
