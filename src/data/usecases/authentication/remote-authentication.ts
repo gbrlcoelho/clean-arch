@@ -1,4 +1,4 @@
-import { HttpPostClient } from '@/data/protocols/http/http-post-client'
+import { HttpPostClient } from 'data/protocols/http/http-post-client'
 
 export class RemotheAuthentication {
   constructor (private readonly url: string,
