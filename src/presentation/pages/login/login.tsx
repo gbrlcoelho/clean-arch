@@ -1,11 +1,8 @@
-import Footer from "@/presentation/components/footer/footer";
-import FormStatus from "@/presentation/components/form-status/form-status";
-import Input from "@/presentation/components/input/input";
-import Header from "@/presentation/components/login-header/login-header";
+import { Footer, FormStatus, Header, Input } from "@/presentation/components";
 import React from "react";
 import Styles from "./login-styles.scss";
 
-export const Login: React.FC = () => {
+const Login: React.FC = () => {
 	return (
 		<div className={Styles.login}>
 			<Header />
@@ -23,3 +20,5 @@ export const Login: React.FC = () => {
 		</div>
 	);
 };
+
+export default Login;

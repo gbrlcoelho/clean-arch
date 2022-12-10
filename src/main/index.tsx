@@ -1,5 +1,5 @@
-import { Login } from "@/presentation/pages/login/login"
-import React from "react"
-import ReactDOM from "react-dom"
+import { Login } from "@/presentation/pages";
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<Login />, document.getElementById("main"))
+ReactDOM.render(<Login />, document.getElementById("main"));
