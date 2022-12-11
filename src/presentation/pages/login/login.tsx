@@ -2,11 +2,12 @@
 import { Footer, FormStatus, Header, Input } from '@/presentation/components'
 import Context from '@/presentation/contexts/form/form-context'
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { LoginProps } from './login-props'
 import Styles from './login-styles.scss'
 
 const Login: React.FC<LoginProps> = ({ validation, authentication }: LoginProps) => {
+  const navigate = useNavigate()
   const [state, setState] = useState({
     isLoading: false,
     email: '',
@@ -28,6 +29,7 @@ const Login: React.FC<LoginProps> = ({ validation, authentication }: LoginProps)
       })
       const account = await authentication.auth({ email: state.email, password: state.password })
       localStorage.setItem('accessToken', account.accessToken)
+      navigate('/', { replace: true })
     } catch (error) {
       setState({
         ...state,
