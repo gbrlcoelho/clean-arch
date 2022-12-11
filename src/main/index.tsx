@@ -1,5 +1,5 @@
-import { Login } from "@/presentation/pages";
+import { Router } from "@/presentation/components";
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(<Login />, document.getElementById("main"));
+ReactDOM.render(<Router />, document.getElementById("main"));
