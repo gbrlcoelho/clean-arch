@@ -1,6 +1,6 @@
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const path = require('path')
- 
+
 module.exports = {
   mode: 'development',
   entry: './src/main/index.tsx',
@@ -37,13 +37,13 @@ module.exports = {
   devServer: {
     static: './public',
     devMiddleware: {
-      writeToDisk: true,
+      writeToDisk: true
     },
-    historyApiFallback:{
+    historyApiFallback: {
       rewrites: [
         { from: /./, to: '/index.html' }
       ]
-  },
+    }
   },
   externals: {
     react: 'React',
