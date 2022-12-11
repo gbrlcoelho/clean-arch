@@ -12,7 +12,8 @@
 			"@/*": ["*"]
 		},
 		"allowJs": true,
-		"resolveJsonModule": true
+		"resolveJsonModule": true,
+		"strictNullChecks": true
 	},
 	"include": ["src", "tests"],
 	"exclude": ["tests/e2e/cypress"]
