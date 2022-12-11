@@ -1,1 +1,1 @@
-export type Props = React.HTMLAttributes<HTMLElement>;
+export type Props = React.HTMLAttributes<HTMLElement>
