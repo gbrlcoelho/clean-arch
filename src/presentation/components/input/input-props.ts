@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
 export type Props = React.DetailedHTMLProps<
-	React.InputHTMLAttributes<HTMLInputElement>,
-	HTMLInputElement
->;
+React.InputHTMLAttributes<HTMLInputElement>,
+HTMLInputElement
+>

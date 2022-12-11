@@ -1,9 +1,9 @@
-import { Footer, FormStatus, Header, Input } from "@/presentation/components";
-import React from "react";
-import Styles from "./login-styles.scss";
+import { Footer, FormStatus, Header, Input } from '@/presentation/components'
+import React from 'react'
+import Styles from './login-styles.scss'
 
 const Login: React.FC = () => {
-	return (
+  return (
 		<div className={Styles.login}>
 			<Header />
 			<form className={Styles.form}>
@@ -18,7 +18,7 @@ const Login: React.FC = () => {
 			</form>
 			<Footer />
 		</div>
-	);
-};
+  )
+}
 
-export default Login;
+export default Login
