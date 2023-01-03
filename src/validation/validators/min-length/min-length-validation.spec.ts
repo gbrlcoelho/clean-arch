@@ -8,4 +8,10 @@ describe('MinLengthValidation', () => {
     const error = sut.validate('123')
     expect(error).toEqual(new InvalidFieldError())
   })
+
+  test('Should return falsy if value is alid', () => {
+    const sut = new MinLengthValidation(faker.database.column(), 5)
+    const error = sut.validate('12345')
+    expect(error).toBeFalsy()
+  })
 })
